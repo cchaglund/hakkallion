@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/custom.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Muli" rel="stylesheet"> 
+  
+  <title>Cart</title>
+</head>
+
+    <body>
+    <div class="container main">
+                        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="logo-header col-lg-2 col-sm-4 col-xs-12 d-none d-sm-block">
+           <a href="index.html"><img src="images/hakallion-logo.png" class="logo-icon"></a>
+           </div>
+      <!--<a class="navbar-brand" href="#">Navbar</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Start <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="info.html">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+
+
+    <hr class="featurette-divider">
+<!-- here -->
+  <div class="container-fluid background">
+    <!-- or here -->
+    <div class="row">
+      <!-- or here -->
+      <div class="col-12 col-sm-12">
+        <div class="container shopping-cart">
+          <div class="row cart-header justify-content-between">
+            <div class="col-2 col-sm-1 cartHeader mt-3">
+              Product
+            </div>
+            <div class="col-2 offset-md-4 col-sm-1 cartHeader mt-3">
+              Quantity
+            </div>
+            <div class="col-2 cartHeade mt-3">
+              Price
+            </div>
+            <div class="col-2 col-sm-2 cartHeader mt-3">
+              Total
+            </div>
+          </div>
+          <div class="row product-row">
+            <div class="col-12 col-sm-2 col-xs-12">
+              <img src="images/kit1.png" style="width: 100%">
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <span class="product-title"><a href="#"> Small kit</a></span> <br>
+              <span class="product-company">via <a href="">Hummingbird</a></span> <br> Status: <span class="product-status">Available</span>
+            </div>
+            <div class="col-sm-1 col-xs-12">
+              <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected="selected">1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+              </div>
+            </div>
+            <div class="col-2 col-xs-12">
+              $15.0
+            </div>
+            <div class="col-2 col-xs-12">
+              $30.0
+            </div>
+            <div class="col-2 col-xs-12">
+              <button type="button" class="btn btn-danger">Remove</button>
+            </div>
+          </div>
+          <div class="row product-row">
+            <div class="col-12 col-sm-2 col-xs-12">
+              <img src="images/kit2.png" style="width: 100%">
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <span class="product-title"><a href="#">Medium kit</a></span> <br>
+              <span class="product-company">via <a href="">Homing Bird</a></span> <br> Status: <span class="product-status">Available</span>
+            </div>
+            <div class="col-sm-1 col-xs-12">
+              <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected="selected">1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+              </div>
+            </div>
+            <div class="col-sm-2 col-xs-12">
+              $25.0
+            </div>
+            <div class="col-sm-2 col-xs-12">
+              $50.0
+            </div>
+            <div class="col-sm-2 col-xs-12">
+              <button type="button" class="btn btn-danger">Remove</button>
+            </div>
+          </div>
+          <div class="row product-row">
+            <div class="col-12 col-sm-2 col-xs-12">
+              <img src="images/kit3.png" style="width: 100%">
+            </div>
+            <div class="col-sm-3 col-xs-12">
+              <span class="product-title"><a href="#">Premium kit</a></span> <br>
+              <span class="product-company">via <a href="">White Eagle</a></span> <br> Status: <span class="product-status-outofstock">In Flight</span>
+            </div>
+            <div class="col-1 col-xs-12">
+              <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                                <option selected="selected">1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+              </div>
+            </div>
+            <div class="col-2 col-xs-12">
+              $35.0
+            </div>
+            <div class="col-2 col-xs-12">
+              $70.0
+            </div>
+            <div class="col-2 col-xs-12">
+              <button type="button" class="btn btn-danger">Remove</button>
+            </div>
+          </div>
+          <div class="row proggres-row">
+            <div class="col-12 progres-bar">
+                <div class="progress d-none d-sm-block">
+                    <div class="progress-bar progress-bar-complete progress-bar-striped progress-bar-animated d-none d-sm-block" style="width:75%;">
+                      75% of estimated White Eagle flight complete
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row totals-row align-middle" style="justify-content: center;">
+            <div class="col-1 col-xs-12 d-none d-sm-block">
+              Totalt
+            </div>
+            <div class="col-1 col-xs-12 d-none d-sm-block" style="margin-left: 5px;">
+              $150
+            </div>
+          </div>
+          <div class="row checkout-row" style="justify-content: center;">
+            <div class="col-3 col-xs-12 mb-4">
+              <button type="button" class="btn btn-secondary d-none d-sm-block">Keep looking</button>
+            </div>
+            <div class="col-2 col-xs-12">
+              <button type="button" class="btn btn-danger">Checkout</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div><!--end main container-->
+  <div style="height: 4rem"></div>
+
+<!-- footer -->
+<div class="container-fluid" style="font-size: 0.8rem">
+ <div class="row bg-dark align-items-center text-light">
+   <div class="col-3 col-sm-2 col-md-1 text-center p-1">
+     <a href="cart.html"><i class="far fa-caret-square-up font text-white h3 my-auto mx-auto"></i></a>
+   </div>
+   <div class="col text-center p-1">
+     Hakallion Inc. - All rights reserved 2018
+   </div>
+   <div class="col-3 col-sm-2 col-md-2 col-lg-1 p-2">
+     <div class="my-auto mx-auto" style="font-size: 0.8rem"><a class="text-light" style="text-decoration: none" href="contact.html">Contact</a></div>
+   </div>
+ </div>
+<!-- end footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

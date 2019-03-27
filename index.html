@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/all.css">
+  <link rel="stylesheet" href="style/custom.css">
+
+  <title>Hello, world!</title>
+</head>
+<body>
+
+
+
+<!-- TA ALLT HÄRIFRÅN -->
+
+<!-- modal start -->
+<div class="modal fade" id="sending-success-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Message sent</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <!-- start header -->
+  <div class="row justify-content-center text-center mt-5 mb-5">
+      <h1>We get up early in the weekend so you don't have to.</h1>
+  </div>
+  <!-- start header -->
+
+  <!-- start form -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Topic</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>General</option>
+                <option>Support</option>
+                <option>Suggestions</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+            </div>
+          </form>
+
+          <div class="row justify-content-center">
+            <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#sending-success-modal">Send</button>
+          </div>
+        
+      </div><!-- end column-->
+    </div><!-- end row -->
+  </div><!-- end container -->
+  <!-- end form -->
+  
+  <!-- start contact-info -->
+  <div class="mt-5">
+  </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div class="row text-center flex-column flex-sm-row justify-content-lg-center toffas-blue  border-dark">
+          <div class="col flex-basis-1 p-4" style="height: 10rem">
+            <div class="row flex-column h-100">
+              <div class="col">
+                <div class="row align-items-end justify-content-center h-100">
+                  <i class="fas fa-phone toffas-ikoner"></i>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row align-items-start mt-3 mt-sm-4 justify-content-center h-100">
+                  <div class="">+46 (0)42-22 33 44</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col flex-basis-1 p-4">
+            <div class="row flex-column h-100">
+              <div class="col">
+                <div class="row align-items-end justify-content-center h-100">
+                  <i class="fas fa-map-marker-alt toffas-ikoner"></i>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row align-items-start mt-3 mt-sm-4 justify-content-center h-100">
+                  <div>Skeppsbron 12, 209 43, Malmö, Sweden</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col flex-basis-1 p-4">
+            <div class="row flex-column h-100">
+              <div class="col">
+                <div class="row align-items-end justify-content-center h-100">
+                  <i class="fas fa-user-alt toffas-ikoner"></i>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row align-items-start mt-3 mt-sm-4 justify-content-center h-100">
+                  <div class=""><a href="#">contact@hackallion.com</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- end contact-info -->
+
+<!-- start social-media section -->
+  <div class="row flex-sm-row mt-5 justify-content-center">
+    <div class="col-4 col-sm-2 col-md-1 col-lg-1">
+      <img class="img-fluid" src="images/facebook.png">
+    </div>
+    <div class="col-4 col-sm-2 col-md-1 col-lg-1">
+      <img class="img-fluid" src="images/linkedin.png">
+    </div>
+    <div class="col-4 col-sm-2 col-md-1 col-lg-1">
+      <img class="img-fluid" src="images/twitter.png">
+    </div>
+    <div class="col-4 col-sm-2 col-md-1 col-lg-1">
+      <img class="img-fluid" src="images/youtube.png">
+    </div>
+    <div class="col-4 col-sm-2 col-md-1 col-lg-1">
+      <img class="img-fluid" src="images/facebook.png">
+    </div>
+  </div>
+<!-- end social-media section -->
+ 
+<!-- start message -->
+  <div class="row justify-content-center mt-5 mb-5">
+    <h2>Feel better soon!</h2>
+  </div>
+<!-- end message -->
+
+
+</div>
+
+
+
+<!-- footer -->
+<div class="container-fluid " style="font-size: 0.8rem">
+  <div class="row bg-dark align-items-center text-light" style="min-height: 0rem">
+    <div class="col-3 col-sm-2 col-md-1 d-flex align-self-stretch text-center border-right border-light p-1">
+      <img class="img-fluid" src="images/hakallion-logo-small.png">
+    </div>
+    <div class="col text-center p-1">
+      Hakallion Inc. - All rights reserved 2018
+    </div>
+    <div class="col-3 col-sm-2 col-md-1 border-left p-2 border-light d-flex align-self-stretch">
+      <div class="my-auto mx-auto" style="font-size: 0.8rem">Contact</div>
+    </div>
+  </div>
+</div>
+<!-- end footer -->
+
+<!-- TILL HIT -->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="fontawesome/all.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/all.css">
+  <link rel="stylesheet" href="style/custom.css">
+
+  <title>Hello, world!</title>
+</head>
+<body>
+
+<style>
+
+</style>
+
+<div class="container fixed-top" style="min-width: 100%">
+<!-- MAIN MENU -->
+	<div class="row bg-primary align-content-stretch" style="height: 7vh">
+		<div class="col text-center border-right border-dark align-self-stretch mt-auto mb-auto" onclick="displayHome()">
+			Home
+		</div><!-- end col-->
+		<div class="col text-center border-right border-dark align-self-stretch mt-auto mb-auto" onclick="displayProductsLvl()">
+			Products
+		</div><!-- end col-->
+		<div class="col text-center align-self-stretch mt-auto mb-auto" onclick="displayAboutLvl()">
+			About Us
+		</div><!-- end col-->
+	</div><!-- end row-->
+<!-- /MAIN -->
+
+<!-- PROD lvl 2 -->
+	<div class="row bg-secondary" id="products-lvl-2" style="display: none; height: 5vh">
+		<div class="col text-center">
+			S
+		</div><!-- end col-->
+		<div class="col text-center">
+			M
+		</div><!-- end col-->
+		<div class="col text-center">
+			L
+		</div><!-- end col-->
+	</div><!-- end row-->
+<!-- /PROD -->
+
+<!-- ABOUT lvl 2 -->
+	<div class="row bg-success" id="about-lvl-2" style="display: none; height: 5vh">
+		<div class="col text-center">
+			 About
+		</div><!-- end col-->
+		<div class="col text-center">
+			Contact
+		</div><!-- end col-->
+		<div class="col text-center">
+			Drone
+		</div><!-- end col-->
+	</div><!-- end row-->
+<!-- /ABOUT -->
+
+</div><!-- end main cont-->
+
+<!-- SPACER START-->
+<div style="height: 10vh">
+</div>
+<!--! /SPACER -->
+
+<!-- CONTENT START -->
+<div class="container">
+
+	<h1 class="mt-5">Hello this is content wassup</h1>
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- /CONTENT -->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="fontawesome/all.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+
+    	function displayHome () {
+    		document.getElementById("products-lvl-2").style.display = "none";
+    		document.getElementById("about-lvl-2").style.display = "none";
+    	}
+    	
+    	function displayProductsLvl () {
+    		document.getElementById("products-lvl-2").style.display = "flex";
+    		document.getElementById("about-lvl-2").style.display = "none";
+    	}
+
+    	function displayAboutLvl () {
+    		document.getElementById("products-lvl-2").style.display = "none";
+    		document.getElementById("about-lvl-2").style.display = "flex";
+    	}
+
+    </script>
+  </body>
+</html>

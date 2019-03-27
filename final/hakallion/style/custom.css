@@ -1,0 +1,363 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 3.5rem;
+    font-family: 'Muli', sans-serif; } h1, h2, h3, h4, h5 { font-family: 'Comfortaa', cursive;
+}
+/*main container for all pages*/
+
+.main {
+
+}
+
+/*navigation*/
+
+.navbar {
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .navbar {
+        height: 70px;
+    }
+    .navbar .dropdown-menu {
+        display: none;
+    }
+}
+
+.subnav{
+    background-color: gray;
+    top:70px;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.subnav a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 10px; 
+}
+
+.logo-icon{
+    max-width: 100px;
+}
+
+/*startpgae*/
+
+.we-know, .help, .deliver{
+    font-size: 1.5em;
+}
+
+
+
+.smile{
+    font-size: 5em;
+}
+
+.hand{
+    font-size: 5em;
+}
+
+.parachute {
+    font-size: 5em;
+}
+
+
+.jumbotron-welcome {
+    background-image: url("../images/drone-start.jpg");
+    background-size: cover;
+    color: white;
+    }
+
+    .jumbotron-welcome h1{
+    color: white;
+    text-shadow:0 5px 5px gray;
+    }
+
+.sexy_line { 
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+@media (max-width: 991px) {
+    .about-row1 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .haka {
+        text-align: right;
+    }
+}
+
+
+.team {
+    margin-top: 80px;
+}
+
+
+.carousel-item{
+    height: 430px;
+} 
+
+.carousel-item img{
+    height: 430px;
+}
+
+
+.fas.kontakt{
+	font-size: 2rem;
+}
+
+/*drones*/
+.jumbotron-drone {
+    background-image: url("../images/drone-cover.jpg");
+    background-size: cover;
+    
+   
+}
+
+.display-4-drone,
+.lead-drone {
+    color: black;
+    transition: color 0.8s ease;
+}
+.display-4-drone:hover,
+.lead-drone:hover {
+
+}
+
+.card-drone {
+    border: 1px solid grey;
+    box-shadow: inset 0 0 10px #000000;
+    
+}
+
+.card-drone:hover {
+    box-shadow: 0 15px 10px #000000;
+    animation: pulse 5s 1;
+   /* transform: translateY(-7px); */
+    
+}
+
+@keyframes pulse {
+    0% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(-30px)
+    }
+}
+
+.btn-drone {
+    transition: background-color 0.8s ease, color 0.8s ease;
+    color: #000000;
+    background-color: white;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+.btn-drone:hover {
+  color: white; 
+  background-color: gray;
+
+}
+
+
+.card-body-drone {
+    border-top: 1px solid black;
+    padding: 1.25em;
+}
+
+.display-3-drone {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: black;
+    
+}
+
+.display-4-drone:hover {
+ 
+    animation: stretch 5s 1;
+}
+
+@keyframes stretch {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-1000px);
+    }
+}
+
+
+.lead-drone {
+    font-size: 2em;
+}
+
+.card-text-drone {
+    text-align: center;
+    word-break: keep-all;
+}
+
+
+
+
+
+/*about*/
+.divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.lines {
+    margin-top: 70px;
+}
+
+.content-info {
+    margin-top: 90px;
+}
+
+.lead {
+    font-size:1.2em;
+    }
+
+
+@media (min-width: 40em) {
+
+  .info-heading {
+    font-size: 50px;
+  }
+}
+
+
+
+/*products*/
+.products-cards h1 {
+    font-size: 1.75em;
+}
+.products-cards .card {
+    height: 100%;
+}
+.products-cards .card-footer {
+    white-space: nowrap;
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.all-products {
+    margin-top: 80px;
+}
+
+.kits{
+    margin-top: 80px;
+}
+
+.buy-kit{
+    background-color: #f3f3f3;
+}
+
+.kit-stuff {
+    height: 100%;
+}
+
+.pic-text{
+    border:2px solid gray;
+}
+
+
+
+/*cart*/
+
+.shopping-cart {
+    background: -moz-linear-gradient(top, rgba(235,233,249,0.6) 0%, rgba(235,233,249,0.6) 1%, rgba(216,208,239,0.96) 90%, rgba(206,199,236,0.99) 97%, rgba(193,191,234,1) 99%, rgba(193,191,234,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(235,233,249,0.6) 0%,rgba(235,233,249,0.6) 1%,rgba(216,208,239,0.96) 90%,rgba(206,199,236,0.99) 97%,rgba(193,191,234,1) 99%,rgba(193,191,234,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(235,233,249,0.6) 0%,rgba(235,233,249,0.6) 1%,rgba(216,208,239,0.96) 90%,rgba(206,199,236,0.99) 97%,rgba(193,191,234,1) 99%,rgba(193,191,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ebe9f9', endColorstr='#c1bfea',GradientType=0 ); /* IE6-9 */
+}
+
+.product-row:hover {
+    background: #D4D4D4;
+}
+
+.product-row {
+    margin: 10px; padding: 5px;
+}
+
+.cartHeader {
+    font-weight: 800;
+}
+
+.product-title {
+    font-size: 1.5em;
+}
+
+.product-company {
+    font-size: 1.25em;
+}
+
+.product-status {
+    color: green;
+}
+
+.product-status-outofstock {
+    color: #FFE35A;
+}
+
+.price, .total {
+    font-weight: 600;
+}
+
+
+/*contact*/
+.contactpage {
+    margin-top: 80px;
+}
+
+.toffas-ikoner {
+  font-size: 2rem;
+}
+
+.toffas-blue {
+  background: rgba(254,255,255);
+  background: -moz-linear-gradient(top, rgba(254,255,255,1) 0%, rgba(210,235,249,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%);
+  background: linear-gradient(to bottom, rgba(254,255,255,0.5) 30%,rgba(210,235,249,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 );
+}
+
+
+ {
+  flex-basis: 7rem;
+}
+
+.flex-basis-2 {
+  flex-basis: 20rem;
+}
+
+

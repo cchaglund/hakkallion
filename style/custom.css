@@ -1,0 +1,21 @@
+.toffas-ikoner {
+	font-size: 2rem;
+}
+
+.toffas-blue {
+	background: rgba(254,255,255);
+	background: -moz-linear-gradient(top, rgba(254,255,255,1) 0%, rgba(210,235,249,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%);
+	background: linear-gradient(to bottom, rgba(254,255,255,0.5) 30%,rgba(210,235,249,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 );
+}
+
+
+.flex-basis-1 {
+	flex-basis: 7rem;
+}
+
+.flex-basis-2 {
+	flex-basis: 20rem;
+}
+
